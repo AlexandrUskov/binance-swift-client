@@ -43,7 +43,7 @@ func klines(symbol: String, interval: Interval, limit: Int = 100) async throws -
 ## Install (Swift Package Manager)
 
 ```swift
-.package(url: "https://github.com/AlexandrUskov/binance-swift-client.git", from: "1.0.0")
+.package(url: "https://github.com/OleksandrUskov/binance-swift-client.git", from: "1.0.0")
 ```
 
 ## Test
