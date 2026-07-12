@@ -53,7 +53,8 @@ swift test
 ```
 
 The test suite is **offline and deterministic** — it exercises decoding (string-number parsing,
-positional-array klines, malformed-row handling) and URL building against embedded fixtures, so it
+positional-array klines, malformed-row handling), URL building, and a full request→response round-trip
+through an injected mock `URLSession` (via `URLProtocol`), all against embedded fixtures, so it
 needs no network and never flakes.
 
 ## Background
